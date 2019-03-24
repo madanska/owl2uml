@@ -1,0 +1,81 @@
+package owl2uml;
+
+public class GlobalVariables {
+	public static String OWL_EMPTY = "";
+	public static String OWL_CLASS_NAME = "className";
+	public static String OWL_PROPERTY_NAME = "propertyName";
+	public static String OWL_SUPERCLASS_NAME = "subClassOf";
+	public static String OWL_SUPERPROPERTY_NAME = "superProperty";
+	public static String OWL_COMPLEMENT_OF = "complementOf";
+	public static String OWL_INTERSECTION_OF = "intersectionOf";
+	public static String OWL_ONE_OF = "oneOf";
+	public static String OWL_UNION_OF = "unionOf";
+	public static String OWL_DOMAIN = "domain";
+	public static String OWL_RANGE = "range";
+	public static String OWL_MINCARDINALITY = "MinCardinality";
+	public static String OWL_MINCARDINALITY_ONPROPERTY = "MinCardinality.onProperty";
+	public static String OWL_MINCARDINALITY_VALUE = "MinCardinality.value";
+	public static String OWL_MAXCARDINALITY = "MaxCardinality";
+	public static String OWL_MAXCARDINALITY_ONPROPERTY = "MaxCardinality.onProperty";
+	public static String OWL_MAXCARDINALITY_VALUE = "MaxCardinality.value";
+	public static String OWL_ALLVALUESFROM = "AllValuesFrom";
+	public static String OWL_ALLVALUESFROM_ONPROPERTY = "AllValuesFrom.onProperty";
+	public static String OWL_ALLVALUESFROM_VALUE = "AllValuesFrom.value";
+	public static String OWL_HASVALUE = "HasValue";
+	public static String OWL_HASVALUE_ONPROPERTY = "HasValue.onProperty";
+	public static String OWL_HASVALUE_VALUE = "HasValue.value";
+	public static String OWL_SOMEVALUESFROM = "SomeValuesFrom";
+	public static String OWL_SOMEVALUESFROM_ONPROPERTY = "SomeValuesFrom.onProperty";
+	public static String OWL_SOMEVALUESFROM_VALUE = "SomeValuesFrom.value";
+	public static String OWL_ONPROPERTY = "onProperty";
+	public static String OWL_VALUE = "value";
+
+	public static String UML_EMPTY = "";
+	public static String UML_CLASS_NAME = "className";
+	public static String UML_SUPER_CLASS_NAME = "superClass";
+	public static String UML_ATTRIBUTE = "attribute name";
+	public static String UML_OPERATION = "operation";
+	public static String UML_OPERATION_NAME = "operation name";
+	public static String UML_OPERATION_PARAMETER = "operation parameter";
+	public static String UML_PARAMETER_TYPE_IN = "in";
+	public static String UML_PARAMETER_TYPE_OUT = "out";
+	public static String UML_PARAMETER_TYPE_INOUT = "inout";
+	public static String UML_PARAMETER_TYPE_RETURN = "return";
+	public static String UML_ASSOCIATION_DIRECTED = "directed association";
+	public static String UML_ASSOCIATION_AGGREGATION = "aggregation association";
+	public static String UML_ASSOCIATION_COMPOSITION = "composition association";
+	public static String UML_ASSOCIATION_TYPE_MIN = "x..*";
+	public static String UML_ASSOCIATION_TYPE_MAX = "0..x";
+	public static String UML_ASSOCIATION_TYPE_EQUAL = "x";
+	public static String UML_ASSOCIATION_MULTIPLICITY_END1 = "End1";
+	public static String UML_ASSOCIATION_MULTIPLICITY_END2 = "End2";
+
+	public static String IF_NO_CONDITION = "no condition";
+	public static String IF_REGULAR_EXPRESSION = "regular expression";
+	public static String IF_STRING_EQUALS = "equals";
+	public static String IF_STRING_BEGINS_WITH = "begins with";
+	public static String IF_STRING_ENDS_WITH = "ends with";
+	public static String IF_STRING_INCLUDES = "includes";
+	public static String IF_STRING_NOT_EQUALS = "not equals";
+	public static String IF_STRING_NOT_BEGINS_WITH = "not begins with";
+	public static String IF_STRING_NOT_ENDS_WITH = "not ends with";
+	public static String IF_STRING_NOT_INCLUDES = "not includes";
+	
+	public static String ICON_OPEN = "img/open.png";
+	public static String ICON_SAVE = "img/save.png";
+	public static String ICON_CLOSE = "img/close.png";
+	public static String ICON_SEPARATOR = "img/separator.png";
+	public static String ICON_NEW_CLASS_RULE = "img/newClassRule.png";
+	public static String ICON_NEW_DATATYPE_PROPERTY_RULE = "img/newDatatypePropertyRule.png";
+	public static String ICON_NEW_OBJECT_PROPERTY_RULE = "img/newObjectPropertyRule.png";
+	public static String ICON_REMOVE_RULE = "img/removeRule.png";
+	public static String ICON_CONFIGURE = "img/configure.png";
+	public static String ICON_RUN = "img/run.png";
+	public static String ICON_OWL_CLASS = "img/owlClass.png";
+	public static String ICON_OWL_DATATYPE_PROPERTY = "img/owlDatatypeProperty.png";
+	public static String ICON_OWL_OBJECT_PROPERTY = "img/owlObjectProperty.png";
+	public static String ICON_UML_CLASS = "img/umlClass.png";
+	public static String ICON_UML_ASSOCIATION = "img/umlAssociation.png";
+	public static String ICON_UML_OPERATION = "img/umlOperation.png";
+	
+}
